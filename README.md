@@ -1,16 +1,30 @@
-# NLW Valoriza
+<h1 align="center">NLW Valoriza</h1>
 
-## Rules
+<p align="center">
+  <img alt="Preview" src="./.github/preview.png">
+</p>
 
-- User register
-  - Email can´t repeat.
-  - Email it's mandatory.
-- Create TAG
-  - Tag name should be unique.
-  - Tag name it's mandatory.
-  - Only admin users can create tags.
-- Create compliments
-  - User can't create compliment to yourself.
-  - It's not possible create compliments to invalid users.
-  - The user should be authenticated.
-  
+## ✨ Technologies
+
+This project was developed with the following technologies:
+
+- [Node.js](https://nodejs.org/en/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/pt-br/)
+- [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)
+
+## 💻 Project
+
+NLW Valoriza is a platform to promote recognition among teammates.
+
+## 🚀 Run
+
+- Clone the repository
+- Run `yarn` to get the dependencies
+- Run `yarn typeorm migration:run` to create the database.
+- Run `yarn dev` to start the application.
+
+The application are available in `http://localhost:3000`
+
+---
+By Luciano Dias with the contribution of &nbsp;[Rocketseat](https://github.com/rocketseat-education) 💻
