@@ -7,7 +7,7 @@ import { User } from "@modules/users/infra/typeorm/entities/User";
 class Compliment {
 
   @PrimaryColumn()
-  readonly id: string;
+  id: string;
 
   @Column()
   user_sender: string;
